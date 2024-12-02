@@ -1,20 +1,20 @@
 # MSF-CPMP
 
-# introduction
+# Introduction
 
 MSF-CPMP is a novel multi-source feature fusion model for the permeability of cyclic peptide membranes.   
-## datasets
+## Datasets
 
-### data_deep_learning   
+### Data_deep_learning   
 * The results of ten fold cross validation of cyclic peptide data are used for training deep neural networks.
 data_machine_learning
 * The results of ten fold cross validation of cyclic peptide data are used for training traditional machine learning networks.
-## datasets_process
+## Datasets_process
 
 * `CycPeptMPDB_Peptide_PAMPA.csv`-6491 cyclic peptide data, including various characteristics and permeability sizes of cyclic peptides. The download address is [http://cycpeptmpdb.com/peptides/type](http://cycpeptmpdb.com/peptides/type_PAMPA/).
 * `data_deeplearning_process.py`：Obtain the ten fold cross validation data required for deep learning models.
 * `data_machinelearning_process.py`：Obtain the ten fold cross validation data required for machine learning models.   
-## Environmental requirements
+## Environmental Requirements
 
 * This code has been tested in Python 3.8. Quickly set up using `environment. yaml`.
 ```bash
@@ -25,13 +25,13 @@ conda activate MSF-CPMP
 conda install -c rmg descriptastorus
 pip install dgllife==0.3.2
 ```
-## src
+## Src
 
-### deep_learning
+### Deep_learning
 
 * Detailed information on all deep learning models, including data preprocessing, model construction, training, validation, testing, and result preservation.
 
-### machine_learning
+### Machine_learning
 
 * Detailed information on all machine learning models, including data preprocessing, model construction, training, validation, testing, and result preservation.
 
