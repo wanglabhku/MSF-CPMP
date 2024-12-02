@@ -38,6 +38,6 @@ pip install dgllife==0.3.2
 ## Distribution Description
 
 1.Install dependencies, including torch, sklearn, rdkit, and dgllife.  
-2.Run data_deeplearning process. py and data_machinelearning process. py to obtain the data used for training.  
-3.Run data_pretrofit. py to obtain preprocessed data, which can be directly used for network training, validation, and testing.  
-4.Run model_comcat-py for training, validation, prediction, and result saving.
+2.Run `data_deeplearning process. py` and data_machinelearning process. py to obtain the data used for training.  
+3.Run `data_pretrofit. py` to obtain preprocessed data, which can be directly used for network training, validation, and testing.  
+4.Run `model_comcat-py` for training, validation, prediction, and result saving.
