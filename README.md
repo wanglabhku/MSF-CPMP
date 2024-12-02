@@ -37,7 +37,7 @@ Detailed information on all deep learning models, including data preprocessing, 
 
 Detailed information on all machine learning models, including data preprocessing, model construction, training, validation, testing, and result preservation
 
-##Distribution Description
+## Distribution Description
 
 1.Install dependencies, including torch, sklearn, rdkit, and dgllife 
 
