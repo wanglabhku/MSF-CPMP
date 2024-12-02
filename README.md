@@ -6,10 +6,10 @@ MSF-CPMP is a novel multi-source feature fusion model for the permeability of cy
 # datasets
 
 data_deep_learning   
-*The results of ten fold cross validation of cyclic peptide data are used for training deep neural networks
+* The results of ten fold cross validation of cyclic peptide data are used for training deep neural networks
 data_machine_learning
 
-*The results of ten fold cross validation of cyclic peptide data are used for training traditional machine learning networks
+* The results of ten fold cross validation of cyclic peptide data are used for training traditional machine learning networks
 
 # datasets_process
 
