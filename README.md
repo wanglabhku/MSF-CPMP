@@ -11,12 +11,12 @@ data_machine_learning
 * The results of ten fold cross validation of cyclic peptide data are used for training traditional machine learning networks.
 ## datasets_process
 
-* CycPeptMPDB_Peptide_PAMPA.csv-6491 cyclic peptide data, including various characteristics and permeability sizes of cyclic peptides. The download address is [http://cycpeptmpdb.com/peptides/type](http://cycpeptmpdb.com/peptides/type_PAMPA/).
-* data_deeplearning_process.py：Obtain the ten fold cross validation data required for deep learning models.
-* data_machinelearning_process.py：Obtain the ten fold cross validation data required for machine learning models.   
+* `CycPeptMPDB_Peptide_PAMPA.csv`-6491 cyclic peptide data, including various characteristics and permeability sizes of cyclic peptides. The download address is [http://cycpeptmpdb.com/peptides/type](http://cycpeptmpdb.com/peptides/type_PAMPA/).
+* `data_deeplearning_process.py`：Obtain the ten fold cross validation data required for deep learning models.
+* `data_machinelearning_process.py`：Obtain the ten fold cross validation data required for machine learning models.   
 ## Environmental requirements
 
-* This code has been tested in Python 3.8. Quickly set up using environment. yaml.
+* This code has been tested in Python 3.8. Quickly set up using `environment. yaml`.
 ```bash
 conda env create -f environment.yaml
 ```
