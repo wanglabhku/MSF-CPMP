@@ -16,7 +16,7 @@ data_machine_learning
 * data_machinelearning_process.py：Obtain the ten fold cross validation data required for machine learning models   
 ## Environmental requirements
 
-This code has been tested in Python 3.8. Quickly set up using environment. yaml
+* This code has been tested in Python 3.8. Quickly set up using environment. yaml
 ```bash
 conda env create -f environment.yaml
 ```
@@ -29,18 +29,15 @@ pip install dgllife==0.3.2
 
 ### deep_learning
 
-Detailed information on all deep learning models, including data preprocessing, model construction, training, validation, testing, and result preservation
+* Detailed information on all deep learning models, including data preprocessing, model construction, training, validation, testing, and result preservation
 
 ### machine_learning
 
-Detailed information on all machine learning models, including data preprocessing, model construction, training, validation, testing, and result preservation
+* Detailed information on all machine learning models, including data preprocessing, model construction, training, validation, testing, and result preservation
 
 ## Distribution Description
 
-1.Install dependencies, including torch, sklearn, rdkit, and dgllife 
-
-2.Run data_deeplearning process. py and data_machinelearning process. py to obtain the data used for training
-
-3.Run data_pretrofit. py to obtain preprocessed data, which can be directly used for network training, validation, and testing
-
-4.Run model_comcat-py for training, validation, prediction, and result saving
+1.Install dependencies, including torch, sklearn, rdkit, and dgllife.
+2.Run data_deeplearning process. py and data_machinelearning process. py to obtain the data used for training.
+3.Run data_pretrofit. py to obtain preprocessed data, which can be directly used for network training, validation, and testing.
+4.Run model_comcat-py for training, validation, prediction, and result saving.
